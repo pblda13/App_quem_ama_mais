@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora do Amor</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="insira_um_n_mero_de_0_10">Insira um número de 0 à 10</string>
+    <string name="pode_ser_colocados_n_meros_maiores_caso_necess_rio">Pode ser colocados números maiores ,caso necessário</string>
+    <string name="informe_o_quanto_voc_ama_a_sua_namorada_o_e_clique_em_calcular_para_saber_quem_ama_mais">Informe o quanto você ama a sua namorada(o) e clique em CALCULAR,para saber quem ama mais.</string>
+    <string name="my_image_description" />
+    <string name="digite_aqui">Digite aqui</string>
+    <string name="todo">TODO</string>
+    <string name="se_necess_rio_pode_inserir_mais_de_10">Se necessário pode inserir mais de 10</string>
+    <string name="informe_o_quanto_voc_ama_seu_a_namorado_a_e_clique_em_calcular_para_saber_quem_ama_mais">Informe o quanto você ama seu(a) namorado(a),e clique em CALCULAR,para saber quem ama mais.</string>
+    <string name="desenvolvido_por_p_mela_borges">Desenvolvido por : Pâmela Borges</string>
+</resources>

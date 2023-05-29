@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="151dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="106dp"
+        android:backgroundTint="#8E0D04"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/calcular"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/bt_limpar"
+        android:layout_width="152dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="106dp"
+        android:backgroundTint="#8D0D04"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/limpar"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="539dp"
+        android:contentDescription="@string/todo"
+        android:src="@mipmap/coracao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="347dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="426dp"
+        android:backgroundTint="#FEFAFD"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/informe_o_quanto_voc_ama_seu_a_namorado_a_e_clique_em_calcular_para_saber_quem_ama_mais"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="386dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/insira_um_n_mero_de_0_10"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="335dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/se_necess_rio_pode_inserir_mais_de_10"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/lb_numero"
+        android:layout_width="259dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="231dp"
+        android:hint="@string/digite_aqui"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="841dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/desenvolvido_por_p_mela_borges"
+        android:textColor="#8D6E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
